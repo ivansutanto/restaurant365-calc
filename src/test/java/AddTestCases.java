@@ -15,7 +15,7 @@ public class AddTestCases {
         t.add("2");
         t.add("4");
         AddOps add = new AddOps(t);
-        long res = add.add();
+        Long res = (Long) add.operation();
         log.info(String.valueOf(res));
         assert (res == 10);
     }
@@ -28,7 +28,7 @@ public class AddTestCases {
         t.add("2");
         t.add("4");
         AddOps add = new AddOps(t);
-        long res = add.add();
+        Long res = (Long) add.operation();
         log.info(String.valueOf(res));
         assert (res == 7);
     }
@@ -38,7 +38,7 @@ public class AddTestCases {
         List<String> t = new ArrayList<String>();
         t.add("");
         AddOps add = new AddOps(t);
-        long res = add.add();
+        Long res = (Long) add.operation();
         log.info(String.valueOf(res));
 
     }

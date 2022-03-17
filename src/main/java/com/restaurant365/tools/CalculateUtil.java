@@ -25,8 +25,15 @@ public final class CalculateUtil {
         }
         List<String> t = (List<String>) p.parsing();
         log.debug("Parsed String:"+t.toString());
-        AddOps add = new AddOps(t);
-        long res = add.add();
+
+        OpsI ops;
+        if ("M".equals(System.getProperty("op"))) {
+            ops = new MultiplyOps(t);
+        } else {
+            ops = new AddOps(t);
+        }
+
+        Long res = (Long) ops.operation();
         log.debug("Answer:"+res);
         System.out.println("Answer:"+res);
     }

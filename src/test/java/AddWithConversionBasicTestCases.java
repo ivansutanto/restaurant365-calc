@@ -13,7 +13,7 @@ public class AddWithConversionBasicTestCases {
         CalculatorBasicParser<List<String>> p = new CalculatorBasicParser<>(n);
         List<String> t = p.parsing();
         AddOps add = new AddOps(t);
-        long res = add.add();
+        Long res = (Long) add.operation();
         log.info(String.valueOf(res));
         assert (res == 10);
     }
@@ -24,7 +24,7 @@ public class AddWithConversionBasicTestCases {
         CalculatorBasicParser<List<String>> p = new CalculatorBasicParser<>(n);
         List<String> t = p.parsing();
         AddOps add = new AddOps(t);
-        long res = add.add();
+        Long res = (Long) add.operation();
         log.info(String.valueOf(res));
         assert (res == 8);
     }
@@ -35,7 +35,7 @@ public class AddWithConversionBasicTestCases {
         CalculatorBasicParser<List<String>> p = new CalculatorBasicParser<>(n);
         List<String> t = p.parsing();
         AddOps add = new AddOps(t);
-        long res = add.add();
+        Long res = (Long) add.operation();
         log.info(String.valueOf(res));
         assert (res == 8);
     }
@@ -46,7 +46,7 @@ public class AddWithConversionBasicTestCases {
         CalculatorBasicParser<List<String>> p = new CalculatorBasicParser<>(n);
         List<String> t = p.parsing();
         AddOps add = new AddOps(t);
-        long res = add.add();
+        Long res = (Long) add.operation();
         log.info(String.valueOf(res));
         assert (res == 0);
     }
