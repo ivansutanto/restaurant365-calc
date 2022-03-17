@@ -39,7 +39,7 @@ public class CalculatorPatternMultipleParser<T> implements ParserI<T> {
         String[] arrayNumbers = numbers.split("["+delimiters+"]");
         log.debug("Arrays of Numbers:"+Arrays.toString(arrayNumbers));
 
-        output = Arrays.stream(arrayNumbers).collect(Collectors.toList());
+        output = Arrays.stream(arrayNumbers).map(String::trim).collect(Collectors.toList());
         return (T) output;
     }
 

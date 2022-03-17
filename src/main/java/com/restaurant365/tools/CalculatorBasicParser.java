@@ -16,7 +16,7 @@ public class CalculatorBasicParser<T> implements ParserI<T> {
     public T parsing()
     {
         final String inp = input.replace("\\n",",");
-        output = Arrays.stream(inp.split(",")).collect(Collectors.toList());
+        output = Arrays.stream(inp.split(",")).map(String::trim).collect(Collectors.toList());
         return (T) output;
     }
 

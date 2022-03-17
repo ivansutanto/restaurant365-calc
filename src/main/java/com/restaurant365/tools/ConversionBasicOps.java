@@ -1,5 +1,7 @@
 package com.restaurant365.tools;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.util.List;
 import java.util.Objects;
 import java.util.logging.Logger;
@@ -16,6 +18,7 @@ public class ConversionBasicOps implements ConversionOpsI {
 
     public  final List<Integer> convert() {
             return numbers.stream()
+                    .filter(s -> StringUtils.isNotEmpty(s))
                     .filter(Objects::nonNull)
                     .filter(s -> isNumeric(s))
                     .filter(s -> Integer.valueOf(s) <= 1000)
