@@ -14,6 +14,19 @@ Please enter the number(s):
 //[*][!!][r9r]\n11r9r22*hh*33!!44
 Answer:110
 ```
+> Example 3
+````
+java -jar .\Calculator-1.0-SNAPSHOT.jar
+Please enter the number(s):
+//#\n2#5
+Input://#\n2#5
+Answer:7
+
+Please enter the number(s):
+//,\n2,ff,100
+Input://,\n2,ff,100
+Answer:102
+``` 
 ## How to Run with No Negative Number
 > Example
 ```
