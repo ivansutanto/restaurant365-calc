@@ -1,5 +1,5 @@
 # restaurant365-calc
-##How to Run Default
+## How to Run Default
 > Example 1
 ```
 java -jar .\Calculator-1.0-SNAPSHOT.jar
