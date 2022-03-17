@@ -1,22 +1,16 @@
 # restaurant365-calc
 ## How to Run Default
-> Example 1
+> Example
 ```
 java -jar .\Calculator-1.0-SNAPSHOT.jar
 Please enter the number(s):
 1\n2,3
 Answer:6
-```
-> Example 2
-```
-java -jar .\Calculator-1.0-SNAPSHOT.jar
+
 Please enter the number(s):
 //[*][!!][r9r]\n11r9r22*hh*33!!44
 Answer:110
-```
-> Example 3
-```
-java -jar .\Calculator-1.0-SNAPSHOT.jar
+
 Please enter the number(s):
 //#\n2#5
 Input://#\n2#5
