@@ -1,0 +1,13 @@
+#.project
+.settings
+#.classpath
+.idea
+.factorypath
+.externalToolBuilders
+.apt_generated
+target
+bin
+CVS
+*.log
+*.iml
+/.metadata/
