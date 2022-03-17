@@ -15,7 +15,7 @@ Please enter the number(s):
 Answer:110
 ```
 > Example 3
-````
+```
 java -jar .\Calculator-1.0-SNAPSHOT.jar
 Please enter the number(s):
 //#\n2#5
