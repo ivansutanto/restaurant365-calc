@@ -24,22 +24,6 @@ public class CalculatorMain {
 
     public static void calculate(final String inp) {
         CalculateUtil.calculate(inp);
-//        final ParserI p;
-//        if (inp.startsWith("//[")) {
-//            System.out.println("CalculatorPatternMultipleParser");
-//            p = new CalculatorPatternMultipleParser(inp);
-//        } else if (inp.startsWith("//")) {
-//            System.out.println("CalculatorPatternParser");
-//            p = new CalculatorPatternParser(inp);
-//        } else {
-//            System.out.println("CalculatorBasicParser");
-//            p = new CalculatorBasicParser(inp);
-//        }
-//        List<String> t = (List<String>) p.parsing();
-        //System.out.println(t.toString());
-//        AddOps add = new AddOps(t);
-//        long res = add.add();
-//        log.info("Answer:"+String.valueOf(res));
     }
 
 }
