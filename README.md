@@ -1,4 +1,6 @@
 # restaurant365-calc
+** NOTE: A number that is greater than 1000 is ignored in the addition.
+
 ## How to Run Default
 > Example
 ```
