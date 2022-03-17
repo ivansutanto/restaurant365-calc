@@ -1,5 +1,10 @@
 # restaurant365-calc
-** NOTE: A number that is greater than 1000 is ignored in the addition.
+** NOTE: 
+* A number that is greater than 1000 is ignored in the addition.
+* Compiled and Tested with JDK8
+* Default operation is addition
+
+- [ ] Multiplication is in progress by passing -Dop=M
 
 ## How to Run Default
 > Example
