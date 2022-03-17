@@ -1,0 +1,13 @@
+CalculatorMainBK.class
+com\restaurant365\tools\ConversionOpsI.class
+com\restaurant365\tools\CalculatorPatternParser.class
+com\restaurant365\tools\CalculateUtil.class
+com\restaurant365\tools\AddOps.class
+com\restaurant365\tools\ParserI.class
+com\restaurant365\tools\ValidationDenyNegativeNumberInSet.class
+com\restaurant365\tools\CalculatorBasicParser.class
+com\restaurant365\tools\CalculatorPatternMultipleParser.class
+com\restaurant365\tools\ValidationI.class
+com\restaurant365\tools\ValidationMaxSetOfNumber.class
+com\restaurant365\tools\ConversionBasicOps.class
+CalculatorMain.class

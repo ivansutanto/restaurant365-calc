@@ -5,7 +5,7 @@
 .factorypath
 .externalToolBuilders
 .apt_generated
-target
+#target
 bin
 CVS
 *.log
