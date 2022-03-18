@@ -1,4 +1,5 @@
 AddWithConversionBasicTestCases.class
 MultiplyTestCases.class
 AddTestCases.class
+ConversionDecimalTest.class
 ValidationTests.class

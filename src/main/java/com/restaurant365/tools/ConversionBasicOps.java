@@ -21,7 +21,7 @@ public class ConversionBasicOps implements ConversionOpsI {
                     .filter(s -> StringUtils.isNotEmpty(s))
                     .filter(Objects::nonNull)
                     .filter(s -> isNumeric(s))
-                    .filter(s -> Integer.valueOf(s) <= 1000)
+                    .filter(s -> maxNumber(s))
                     .map(Integer::valueOf)
                     .collect(Collectors.toList());
     }
@@ -32,5 +32,15 @@ public class ConversionBasicOps implements ConversionOpsI {
             return false;
         }
         return pattern.matcher(strNum).matches();
+    }
+
+    public boolean maxNumber(String strNum) {
+        int max=0;
+        boolean ret=true;
+        if (System.getProperty("MAX_VALUE") != null) {
+            max = Integer.valueOf(System.getProperty("MAX_VALUE"));
+            ret = Integer.valueOf(strNum) <= max;
+        }
+        return ret;
     }
 }

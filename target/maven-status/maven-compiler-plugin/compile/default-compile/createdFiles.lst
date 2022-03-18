@@ -1,6 +1,7 @@
 com\restaurant365\tools\OpsI.class
 com\restaurant365\tools\ConversionOpsI.class
 com\restaurant365\tools\CalculatorPatternParser.class
+com\restaurant365\tools\ConversionDecimalOps.class
 com\restaurant365\tools\CalculateUtil.class
 com\restaurant365\tools\AddOps.class
 com\restaurant365\tools\ParserI.class

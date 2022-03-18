@@ -4,7 +4,7 @@
 * Compiled and Tested with JDK8
 * Default operation is addition
 
-- [ ] Multiplication is in progress by passing -Dop=M
+- [ ] Testing Multiplication is in progress by passing -Dop=M
 
 ## How to Run Default
 > Example
