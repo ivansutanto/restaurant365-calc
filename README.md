@@ -5,7 +5,7 @@
 * Setting Max value for calculation. Any number greater than that, it will be ignored, Example
 ```
   -DMAX_VAL=1000
-   This setting to ignore that max value to be calculated
+   This setting to ignore a number that is greated than 1000
 ```
 - [ ] Testing Multiplication is in progress by passing -Dop=M
 
