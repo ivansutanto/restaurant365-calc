@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 /**
  *  Just for fun, it is not in the REQ;Not Used  but it can be done to accept decimal number
  */
-public class ConversionDecimalOps {
+public class ConversionDecimalOps  implements ConversionOpsI {
     private static final Logger log = Logger.getLogger(ConversionBasicOps.class.getName());
     private final List<String> numbers;
 
