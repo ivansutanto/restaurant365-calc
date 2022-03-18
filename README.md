@@ -1,9 +1,12 @@
 # restaurant365-calc
-** NOTE: 
-* A number that is greater than 1000 is ignored in the addition.
+** NOTE:
 * Compiled and Tested with JDK8
 * Default operation is addition
-
+* Setting Max value for calculation. Any number greater than that, it will be ignored, Example
+```
+  -DMAX_VAL=1000
+   This setting to ignore that max value to be calculated
+```
 - [ ] Testing Multiplication is in progress by passing -Dop=M
 
 ## How to Run Default
@@ -31,7 +34,17 @@ Please enter the number(s):
 //,\n2,ff,100
 Input://,\n2,ff,100
 Answer:102
-``` 
+```
+
+## Hot To Run with Max Value
+> Example
+```
+java -DMAX_VALUE=1000 -jar .\Calculator-1.0-SNAPSHOT.jar                    
+Please enter the number(s):
+1,1001,2
+Answer:3
+```
+
 ## How to Run with No Negative Number
 > Example
 ```
