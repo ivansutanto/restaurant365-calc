@@ -18,10 +18,6 @@ Please enter the number(s):
 Answer:6
 
 Please enter the number(s):
-2,1001,6
-Answer:8
-
-Please enter the number(s):
 //[*][!!][r9r]\n11r9r22*hh*33!!44
 Answer:110
 
