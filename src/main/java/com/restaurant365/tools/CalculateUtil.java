@@ -27,15 +27,13 @@ public final class CalculateUtil {
         log.debug("Parsed String:"+t.toString());
 
         OpsI ops;
+
         if ("M".equals(System.getProperty("op"))) {
             ops = new MultiplyOps(t);
         } else {
             ops = new AddOps(t);
         }
-
-        Long res = (Long) ops.operation();
-        log.debug("Answer:"+res);
-        System.out.println("Answer:"+res);
+        System.out.println("Answer:"+ops.operation());
     }
 
 }
