@@ -32,7 +32,7 @@ Input://,\n2,ff,100
 Answer:102
 ```
 
-## Hot To Run with Max Value
+## How To Run with Max Value
 > Example
 ```
 java -DMAX_VALUE=1000 -jar .\Calculator-1.0-SNAPSHOT.jar                    
